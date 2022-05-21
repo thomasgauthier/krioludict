@@ -21,7 +21,7 @@ const Attributions: React.FC<{ open: boolean, close: Function }> = ({ open, clos
                 <div>No online PDF viewer installed</div>
             </object>
             <p>
-                If you find any errors in the translations or would like to contribute, head over to <a href="#">GitHub</a>
+                If you find any errors in the translations or would like to contribute, head over to <a href="https://github.com/thomasgauthier/krioludict" target="_blank" >GitHub</a>
             </p>
         </Modal.Description>
     </Modal.Content>

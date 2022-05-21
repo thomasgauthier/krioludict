@@ -275,7 +275,7 @@ function App() {
             }}>
               About
             </List.Item>
-            <List.Item as='a' href='#'>
+            <List.Item as='a' target="_blank" href='https://github.com/thomasgauthier/krioludict'>
               {/* <Icon name="github" /> */}
               GitHub
             </List.Item>
