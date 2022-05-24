@@ -2,7 +2,7 @@ import React, { Fragment } from "react"
 import { Card, Divider, Label, List } from "semantic-ui-react";
 import style from "./Lexeme.module.scss"
 
-const Lexeme: React.FC<{ lexeme: string; definitions: { type: string; kriolu: string[]; }[]; html: string; }> = (item) => <Card className={style.card} centered={false}>
+const Lexeme: React.FC<{ lexeme: string; definitions: { type: string; kriolu: string[]; }[]; }> = (item) => <Card className={style.card} centered={false}>
     <Card.Content>
         <Card.Header>{item.lexeme}</Card.Header>
         {item.definitions.map((def, idx) => <Fragment key={idx}>
